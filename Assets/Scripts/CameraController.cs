@@ -52,7 +52,7 @@ public class CameraController : MonoBehaviour
         detectedCollectible.EndDialogueSounds();
     }
 
-    public void collectibleFound(Collectible collectible)
+    public void CollectibleFound(Collectible collectible)
     {
         originalPosition = this.transform.position;        
         detectedCollectible = collectible;
@@ -62,7 +62,7 @@ public class CameraController : MonoBehaviour
         collectibleDetected = true;
     }
 
-    //this is started from the Update() function under certain circumstances to move the camera to the desired position
+    //This is started from the Update() function when a blob is found to move the camera to the desired position
     IEnumerator MoveToCollectible()
     {
         float time = 0;
@@ -77,21 +77,22 @@ public class CameraController : MonoBehaviour
 
         transform.position = targetPosition.position;
 
-        //start the dialogue and wait until it is completed
-        Debug.Log("Start Dialogue");
+        //Start the dialogue and wait until it is completed
         detectedCollectible.StartOwnDialogue();
         yield return new WaitUntil(() => dialogueDone);
 
         if(detectedCollectible.gameObject.name == "CollectiblePurple1")
         {
-            detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity.x - 3.0f, detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity.y);
+            float velocityX = detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity.x - 3.0f;
+            float velocityY = detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity.y;
+            detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2 (velocityX, velocityY);
             yield return new WaitForSeconds(1.0f);
             detectedCollectible.gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(0, - 10.0f);
             StartCoroutine(MoveToPlayer());
         }
         else
         {
-            //start the movement back 
+            //Start the movement back 
             StartCoroutine(MoveToPlayer());
         }
         
