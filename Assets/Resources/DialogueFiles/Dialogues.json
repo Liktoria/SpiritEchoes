@@ -1,0 +1,284 @@
+{
+    "dialogues": [
+        {
+            "name": "Blue",
+            "lines": [
+                {
+                    "name": "Blue",
+                    "text": "I am so happy that you woke up!",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "The other all left while you were sleeping... I tried to stop them, but the wait rendered them restless.",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "I chose to stay, because I knew that on the day you would wake up, you would be confused about the path ahead.",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "Only once you reach the beginning, will you reach the end.",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "I didn't go really far, unlike the others, but this place. It feels familiar.",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "Please be careful on the way!",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "I hope that finding them will allow you to find yourself...",
+                    "side": 2
+                },
+                {
+                    "name": "Blue",
+                    "text": "Remember, there are no wrong paths ahead.",
+                    "side": 2
+                }
+            ]
+        },
+        {
+            "name": "Red",
+            "lines": [
+                {
+                    "name": "Red",
+                    "text": "This is weird, I feel like there should be a bird here.",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "This is the perfect spot for a nest.",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "Why arent there any critters.",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "There's plenty of food...",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "What do you think?",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "Do you think that it's because of us?",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "We're not complete, so it upsets the world?",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "I don't know.",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "Not knowing... That's the scariest...",
+                    "side": 2
+                },
+                {
+                    "name": "Red",
+                    "text": "Don't you feel terrified, not knowing where you're from, or where you're going?",
+                    "side": 2
+                }
+            ]
+        },
+        {
+            "name": "Yellow",
+            "lines": [
+                {
+                    "name": "Yellow",
+                    "text": "Ah, finally woke up have you?",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "Did you come to get me last because you knew I was your savior?",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "Of course, of course you did.",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "After all, without me your are nothing.",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "Say, did the others forgive you?",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "I am not going to forgive you.",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "You need to live with your sin.",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "You don't deserve forgivness for casting us away, like some base critters.",
+                    "side": 2
+                },
+                {
+                    "name": "Yellow",
+                    "text": "I don't believe that you forgot your wrongdoings.",
+                    "side": 2
+                }
+            ]
+        },
+        {
+            "name": "Purple1",
+            "lines": [
+                {
+                    "name": "Purple",
+                    "text": "Well I'm glad that this is over!",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "Yellow really likes to hear it's own voice...",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "Say, do you also hate me like all the others?",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "I really wish you didn't... I just couldn't take it anymore.",
+                    "side": 2
+                }
+            ]
+        },
+        {
+            "name": "Green",
+            "lines": [
+                {
+                    "name": "Green",
+                    "text": "You. How long did you plan on making us wait? ",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "First, you bring us away from home, and then when things get hard, not only do you let the idiot take control, but also fall asleep for eons.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "WE WERE WAITING.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "First, you force us out of our homes.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "Then, you let a mortal control your actions.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "And when the time comes to finally regain freedom, you decide you want to go home.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "Even if you knew that it meant losing everything.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "You even unleashed your power.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "Did you ever stop to think about us?",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "We never wanted this. We simply followed you.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "And this idiot was the first one to leave us alone. After all he put us through.",
+                    "side": 2
+                },
+                {
+                    "name": "Green",
+                    "text": "Hmph. You'll end up doing whatever you want anyway won't you...",
+                    "side": 2
+                }
+            ]
+        },
+        {
+            "name": "Purple2",
+            "lines": [
+                {
+                    "name": "Purple",
+                    "text": "Did you find everyone?",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "With all these pieces, can you assemble the puzzle?",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "Do you hate me, like they all did?",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "Or do you accept me, like you did before?",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "I didn't expect you to sleep for so long, but it seems you needed the rest.",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "I hope you'll find it in yourself to forgive my sins.",
+                    "side": 2
+                },
+                {
+                    "name": "Purple",
+                    "text": "After all, we were happy for a long time.",
+                    "side": 2
+                }
+            ]
+        }
+    ]
+}
