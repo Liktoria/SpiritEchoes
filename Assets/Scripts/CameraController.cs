@@ -100,7 +100,6 @@ public class CameraController : MonoBehaviour
 
     IEnumerator MoveToPlayer()
     {
-        Debug.Log("Move back");
         float time = 0;
         Vector3 startPosition = transform.position;
 
